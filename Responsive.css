@@ -1,0 +1,126 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+@media (max-width:1280px){
+    nav{
+        max-width: 90vw;
+        padding-top: 60px;
+    }
+    .main {
+        height: 65vh;
+    }
+    .main .box{
+        height: 65vh;
+    }
+}
+@media (max-width:960px){
+        .img-right{
+            display: none;
+        }
+        .img-up{
+            display:block;
+        }
+        
+    }
+@media (max-width:650px){
+    .lang-opt>img{
+        display: none;
+    }
+    nav{
+        padding-top: 5px;
+    }
+    nav img{
+        width: 100px;
+    }
+    .lang-sm-opt>img{
+        display: inline-block;
+        border: 1px solid #ffffffd8;
+        border-radius: 4px;
+        width: 50px;
+    }
+    .Sign-in>img{
+        margin-left: 5px;
+        border-radius: 8px;
+        width: 70px;
+        height: 30px;
+    }
+    .hero{
+        gap: 16px;
+    }
+    .hero>:first-child{
+        font-size: 35px;
+        line-height: 1.2em;
+    }
+    .hero>:nth-child(2){
+        font-size: 16px;
+    }
+    .hero>:nth-child(3){
+        font-size: 18px;
+        line-height: 1.4em;
+        padding: 0 10px ;
+    }
+    .email-address{
+        width: 90%;
+        font-size: 1em;
+        padding: 13px 20px;
+    }
+    .Get-Started-btn{
+        padding: 5px 15px 8px 15px ;
+        margin-top: 10px;
+        margin-left: 0px;
+    }
+    .Get-Started-btn>img{
+        width: 20px;
+        margin-bottom: 3px;
+    }
+    .line{
+    height: 5px;
+    }
+    .section-1,
+    .section-2,
+    .section-3,
+    .section-4,
+    .section-5{
+        padding: 2em;
+    }
+    .text{
+        padding: 0;
+        text-align: center !important;
+        
+    }
+    .line-1{
+        font-size: 1.8em;
+        line-height: 1.2em;
+    }
+    .line-2{
+        font-size:1em;
+        padding-top: 10px;
+    }
+    .FAQ{
+        font-size: 32px;
+        line-height: 1.3em;
+    }
+    .Questions,
+    .Answer{
+        width: 100%;
+    }
+    .Questions>button,
+    .Answer>.card{
+        font-size: 18px;
+    }
+    .Questions>button>img{
+        width: 20px;
+    }
+    .footer-email{
+        margin:0;
+        width: 85%;
+    }
+    .footer-email>span{
+        color: white;
+        font-size: 1em;
+    }
+    footer{
+        padding: 2em 0 1em 0;
+    }
+}
